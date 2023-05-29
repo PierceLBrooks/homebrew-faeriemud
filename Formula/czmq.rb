@@ -16,7 +16,7 @@ class Czmq < Formula
   depends_on "pkg-config" => :build
   depends_on "xmlto" => :build
 
-  depends_on "ged/faeriemud/zeromq"
+  depends_on "piercelbrooks/faeriemud/zeromq"
 
   depends_on "curl"
   depends_on "libmicrohttpd"
